@@ -3,7 +3,6 @@ module github.com/afzalj-t/http-go-server
 go 1.15
 
 require (
-	github.com/afzalj-t/http-go-server v0.0.0-20200827104601-ce217212121b
 	github.com/go-openapi/errors v0.19.6
 	github.com/go-openapi/loads v0.19.5
 	github.com/go-openapi/runtime v0.19.21
