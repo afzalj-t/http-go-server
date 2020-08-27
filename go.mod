@@ -1,4 +1,4 @@
-module github.com/afzalj-t/http-go-server.git
+module github.com/afzalj-t/http-go-server
 
 go 1.15
 
