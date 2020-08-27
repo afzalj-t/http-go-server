@@ -16,7 +16,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	api := operations.NewHelloAPI(swaggerSpec)
+	api := operations.NewHelloAPIAPI(swaggerSpec)
 	server := restapi.NewServer(api)
 	defer server.Shutdown()
 	server.Port = 8080
